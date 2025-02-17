@@ -6,7 +6,7 @@
 #define RELAY_PIN 7
 #define BUZZER 6
 #define LED 5
-
+ 
 SoftwareSerial gsm(9, 10);  // RX, TX for GSM module
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // I2C LCD address 0x27
 
